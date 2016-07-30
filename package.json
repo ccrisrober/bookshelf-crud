@@ -1,0 +1,15 @@
+{
+  "name": "bookshelf-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "maldicion069 <ccrisrober@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bookshelf": "^0.10.0",
+    "knex": "^0.11.9"
+  }
+}
