@@ -1,6 +1,6 @@
 {
   "name": "bookshelf-crud",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "bookshelf": "^0.10.0",
+    "extend": "^3.0.0",
     "knex": "^0.11.9"
   },
   "repository": {
