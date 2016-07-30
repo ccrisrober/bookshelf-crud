@@ -1,14 +1,14 @@
-## Bookshelf-crud
+# Bookshelf-crud
 Simple CRUD for Bookshelf models
 
-# How to use
+## How to use
 ```javascript
 var bookshelf = require("bookshelf");
 // ...
 bookshelf.plugin(require("bookshelf-crud"));
 ```
 
-# Examples
+## Examples
 ```javascript
 	User.findAll({password: "12345678"})
 	User.findAll({password: "12345678", "email": "ccrisrober@gmail.com"})
