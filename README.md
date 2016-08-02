@@ -18,7 +18,14 @@ bookshelf.plugin(require("bookshelf-crud"));
 	User.create({
 		email: "jojo@jojo.com",
 		password: "666666666",
-		name: "Chema Alonso"
+		name: "Follow the leader"
+	})
+	User.updateOrCreate({
+		id: 115
+	}, {
+		email: "whatthefuck@gmail.com",
+		password: "666666666",
+		name: "Follow me"
 	})
 	User.destroy({id: 4})
 	User.update({
